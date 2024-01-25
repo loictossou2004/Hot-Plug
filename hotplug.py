@@ -1,4 +1,4 @@
 import os
 
 print ("Lol")
-os.remove("hotplug.p")
+os.remove("hotplug.py")
