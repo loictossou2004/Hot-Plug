@@ -37,9 +37,9 @@ def list_folder_contents(token, folder_path):
     except AuthError as e:
         print(f"Error: {e.error}")
 
-token = 'sl.Bv6laWLd8EsXVouPJeA6kzElA1bsKUbW4JVuiUuFx03PjACsuKLa8sspwM1cokLOIG7m6DFiy_WpxnuL-AHm7rB7Dd93XG2-HCFORzJSpNyvlgmgY70Ecx-PRWMtS0NVPU0u6kwS0el-J-ddxVheJnc'
-dropbox_folder_path = '/testATK'
-chemin_dossier_local = "Downloads"
+token = 'YOUR_TOKEN'
+dropbox_folder_path = '/CHEMIN_VERS_LE_DOSSIER_DROPBOX'
+chemin_dossier_local = "CHEMIN_VERS_LE_DOSSIER_LOCAL"
 
 # list_folder_contents(token, folder_path)
 upload_file(token, dropbox_folder_path, chemin_dossier_local)
