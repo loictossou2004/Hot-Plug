@@ -37,7 +37,7 @@ def list_folder_contents(token, folder_path):
     except AuthError as e:
         print(f"Error: {e.error}")
 
-token = 'sl.Bv5qPkzgFfHYKtA8A9zXL-4pN5ct0xopU7joUvaH5QlPjT9Xi_WhpA_0q4sklxaV0Sys0cWfmlfrIZMAuQJotmmZYqvObmwCpKNjlMJD6A26Ep8c3GaSmWhPNLvW4d3zC1mesQuXbmxGBqd47UgqyGk'
+token = 'sl.Bv6laWLd8EsXVouPJeA6kzElA1bsKUbW4JVuiUuFx03PjACsuKLa8sspwM1cokLOIG7m6DFiy_WpxnuL-AHm7rB7Dd93XG2-HCFORzJSpNyvlgmgY70Ecx-PRWMtS0NVPU0u6kwS0el-J-ddxVheJnc'
 dropbox_folder_path = '/testATK'
 chemin_dossier_local = "Downloads"
 
